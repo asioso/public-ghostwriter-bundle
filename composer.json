@@ -1,0 +1,16 @@
+{
+  "name": "asioso/public-ghostwriter-bundle",
+  "description": "With this Bundle you can fill object and brick fields using open-ai.",
+  "version": "1.0.0",
+  "homepage": "https://www.asioso.com",
+  "license": "GPL-3.0-or-later",
+  "type": "pimcore-bundle",
+  "authors": [
+    {
+      "name": "asioso GmbH",
+      "homepage": "https://www.asioso.com",
+      "email": "info@asioso.de",
+      "role": "Developer"
+    }
+  ]
+}
