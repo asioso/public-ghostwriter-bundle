@@ -48,7 +48,7 @@ Find more documentation on how to use placeholders like e.g. {seo.title} directl
 
 **How to get plugin**
 
-You can write an email to [christoph.ramm@yukon.de](mailto:christoph.ramm@yukon.de.
+You can write an email to [christoph.ramm@yukon.de](mailto:christoph.ramm@yukon.de).
 
 ***Installation***
 
@@ -91,8 +91,6 @@ The quality of the prompts you configure will have a huge impact on how useful G
 If you want to understand why the text lengths you configure in the field configuration is never 100% precise, please read about ChatGPT’s “token” concept here: <https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them>
 
 **Authors and contact**
-
-**For feature requests and issues please use** XXXXX @Goran, was wollen wir hier nehmen? Habt ihr ein öffentliches Jira? Oder richten wir ein Github-Projekt dafür ein?
 
 The Ghostwriter plugin is a joint development of:
 
