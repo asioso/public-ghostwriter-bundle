@@ -55,7 +55,7 @@ You can write an email to [christoph.ramm@yukon.de](mailto:christoph.ramm@yukon.
 Then you will get two options to install plugin.
 First one is to get access token that you need to use if you want to install plugin from our Private Package Repository (Recommended way of installation). Following next commands:
 ```bash
-composer config --global --auth http-basic.asioso.repo.repman.io token YOUR-TOKEN
+composer config --global --auth http-basic.asioso-ghostwriter.repo.repman.io token YOUR-TOKEN
 ```
 ```bash
 composer config repositories.asioso composer https://asioso.repo.repman.io/
@@ -64,10 +64,10 @@ composer config repositories.asioso composer https://asioso.repo.repman.io/
 Second option is to get package as zip file, upload the zip file to your project (create a folder `bundles` in the Pimcore root folder) and add the following to your `composer.json`:
 ```json
 "repositories": [
-    {
-        "type": "artifact",
-        "url": "./bundles/"
-    }
+{
+"type": "artifact",
+"url": "./bundles/"
+}
 ]
 ```
 Whatever approach you used, when you finish these steps you should be able to execute next commands.
