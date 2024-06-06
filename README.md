@@ -58,7 +58,7 @@ First one is to get access token that you need to use if you want to install plu
 composer config --global --auth http-basic.asioso-ghostwriter.repo.repman.io token YOUR-TOKEN
 ```
 ```bash
-composer config repositories.asioso composer https://asioso.repo.repman.io/
+composer config repositories.asioso composer https://asioso-ghostwriter.repo.repman.io/
 ``` 
 
 Second option is to get package as zip file, upload the zip file to your project (create a folder `bundles` in the Pimcore root folder) and add the following to your `composer.json`:
