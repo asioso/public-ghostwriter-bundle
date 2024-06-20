@@ -1,11 +1,3 @@
-*LinkedIn / Email:*
-
-At asioso / yukon we like to put new technology into action. This is why, together with our partner yukon / asioso we have built an AI text generator based on ChatGPT for the widely acclaimed open source PIM and CMS Pimcore. "Ghostwriter" comes as a Pimcore plug-in that seamlessly integrates AI into the Product Information and Content Management UIs of Pimcore. Prompts can be easily configured and tuned on a per-filed basis and may also dynamically reference text or data already available in the PIM data object, content module or page. Writing an SEO text or product description now is just a click: Ghostwriter will use the page's meta data or the product's technical information to create the required copy.
-
-XXX Bild folgt
-
-*Pimcore PlugIn page:*
-
 ![](documentation/img/001.png)
 
 Ghostwriter: Configurable AI Text Generator for Data Objects and Bricks
