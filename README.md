@@ -87,16 +87,10 @@ php bin/console pimcore:bundle:install GhostwriterBundle
 
 The Ghostwriter plugin is a joint development of:
 
-**asioso GmbH**
-Wilhelmine-Reichard-Str. 26
-80935 München
-Germany
+**asioso GmbH**, Wilhelmine-Reichard-Str. 26, 80935 München, Germany
 [www.asioso.de](http://www.asioso.de)
 
-**yukon consulting GmbH**
-Waldpromenade 40b
-82131 Gauting
-Germany
+**yukon consulting GmbH**, Waldpromenade 40b, 82131 Gauting, Germany
 [www.yukon.de](http://www.yukon.de)** 
 
 
