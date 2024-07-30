@@ -49,7 +49,7 @@ If you want to understand why the text lengths you configure in the field config
 Write an email to [goran.stefanovic@asioso.de](goran.stefanovic@asioso.de) or [christoph.ramm@yukon.de](mailto:christoph.ramm@yukon.de).
 
 
-**Installation***
+**Installation**
 
 There are two options to install plugin.
 First one (recommended) is to get access token that you need to use if you want to install plugin from our Private Package Repository. Next, execute the following commands:
@@ -71,17 +71,39 @@ Second option is to get package as zip file, upload the zip file to your project
 ```
 Whatever approach you used, when you finish these steps you should be able to execute the following commands.
 
+Pimcore 11:
 ```bash
 composer require asioso/ghostwriter-bundle
-``` 
-
+```
+or if Pimcore 10:
 ```bash
-php bin/console pimcore:bundle:enable GhostwriterBundle
+composer require asioso/ghostwriter-bundle:"^1.0"
 ``` 
 
+Enable it:
+```bash
+// config/bundles.php
+return [
+    // ...
+    Asioso\GhostwriterBundle\GhostwriterBundle::class => ['all' => true],
+];
+```
+
+Install:
 ```bash
 php bin/console pimcore:bundle:install GhostwriterBundle
 ``` 
+
+**Uninstall**
+
+```bash
+php bin/console pimcore:bundle:uninstall GhostwriterBundle
+``` 
+
+```bash
+composer remove asioso/ghostwriter-bundle
+```
+
 
 **Authors and contact**
 
